@@ -19,10 +19,6 @@ I.		HOW TO START
 -- FOR EVERYONE: --
 URL: http://staff.washington.edu/vvien/wordpress/
 
--- ONLY FOR JOE LARSON: (IF YOU WANT TO CHECK OUR BACK-END CODE) --
-URL: http://staff.washington.edu/vvien/wordpress/log-in-2/
-USER NAME: admin
-PASSWORD:  VinhVien9001
 
 
 ------------------------------------------------------------------------------------------
