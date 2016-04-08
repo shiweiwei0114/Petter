@@ -1,0 +1,42 @@
+<h3>Search by pet type</h3>
+
+[abase form="1,search" table="Pet" columns="PetType$Search Pet by type" elements="PetType"]
+<br>
+[abase table="Pet" columns="Name,PetType,Breed,Age,Color,Sex,Size,Hobby,City,State,Image" where="AND PetType='1'" echo="0" ack="green"]
+
+
+<!--
+[abase table="employees" columns="first_name,last_name" where="AND status='1'" echo="0" ack="green"]
+where="AND status='1'"
+-->
+
+
+<!--
+[insert_php]
+echo "Testing \n";
+
+echo "
+<h2>hi</h2>
+";
+
+global $wpdb;
+
+$petType = $_POST['PetType'];
+$sex = $_POST['Sex'];
+$city = $_POST['City'];
+$state= $_POST['State'];
+$zip = $_POST['Zip'];
+echo "Your choice were, \n Pet Type: $petType \n Sex: $sex \n City: $city \n State: $state \n\n";
+
+$query = 'Select * From Pet';
+$result = $wpdb-&gt;get_results($query);
+
+foreach($result as $row)
+{
+if($row-&gt;PetType==$petType)
+{
+echo $row-&gt;Name." ".$row-&gt
+
+<input type="button" onclick="location.href='http://google.com';" value="Go to Google" />
+
+<button type="button"><a href="http://staff.washington.edu/vvien/wordpress/add-successfully/">Add My Pet</a></button>
